@@ -1,0 +1,500 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App testing project-dasboard 1`] = `
+<div>
+  <div>
+    <header
+      className="main-header"
+    >
+      <a
+        className="logo"
+        href="index2.html"
+      >
+        <span
+          className="logo-mini"
+        >
+          <b>
+            A
+          </b>
+          LT
+        </span>
+        <span
+          className="logo-lg"
+        >
+          <b>
+            Admin
+          </b>
+        </span>
+      </a>
+      <nav
+        className="navbar navbar-static-top"
+      >
+        <div
+          className="navbar-custom-menu"
+        >
+          <ul
+            className="nav navbar-nav"
+          >
+            <li
+              className="dropdown notifications-menu"
+            >
+              <a
+                className="dropdown-toggle"
+                data-toggle="dropdown"
+                href="fake_url"
+              >
+                <i
+                  className="fa fa-bell-o"
+                />
+                <span
+                  className="label label-warning"
+                >
+                  2
+                </span>
+              </a>
+              <ul
+                className="dropdown-menu"
+              >
+                <li
+                  className="header"
+                >
+                  You have 2 notifications
+                </li>
+                <li>
+                  <ul
+                    className="menu"
+                  >
+                    <li>
+                      <a
+                        href="fake_url"
+                      >
+                        <i
+                          className="fa fa-users text-aqua"
+                        />
+                         5 new members joined today
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="fake_url"
+                      >
+                        <i
+                          className="fa fa-warning text-yellow"
+                        />
+                         Very long description here that may not fit into the page and may cause design problems
+                      </a>
+                    </li>
+                  </ul>
+                </li>
+                <li
+                  className="footer"
+                >
+                  <a
+                    href="fake_url"
+                  >
+                    View all
+                  </a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+  </div>
+  <div>
+    <aside
+      className="main-sidebar"
+    >
+      <section
+        className="sidebar"
+      >
+        <ul
+          className="sidebar-menu"
+          data-widget="tree"
+        >
+          <br />
+          <li
+            className="header"
+          >
+            MANAJEMEN AKUN
+          </li>
+          <li>
+            <a
+              href="pages/akunsaya.html"
+            >
+              <i
+                className="fa fa-user"
+              />
+               
+              <span>
+                Kelola Akun Saya
+              </span>
+            </a>
+          </li>
+          <li>
+            <a
+              href="pages/KelolaUser/content.html"
+            >
+              <i
+                className="fa fa-users"
+              />
+               
+              <span>
+                Kelola User
+              </span>
+            </a>
+          </li>
+          <li
+            className="header"
+          >
+            <b>
+              NAVIGASI UTAMA
+            </b>
+          </li>
+          <li>
+            <a
+              href="pages/menu.html"
+            >
+              <i
+                className="fa fa-cutlery"
+              />
+               
+              <span>
+                Menu
+              </span>
+            </a>
+          </li>
+          <li>
+            <a
+              href="pages/stock.html"
+            >
+              <i
+                className="fa  fa-check-square"
+              />
+               
+              <span>
+                Stock
+              </span>
+            </a>
+          </li>
+          <li>
+            <a
+              href="pages/UoM.html"
+            >
+              <i
+                className="fa fa-balance-scale"
+              />
+               
+              <span>
+                UoM
+              </span>
+            </a>
+          </li>
+        </ul>
+      </section>
+    </aside>
+  </div>
+  <div>
+    <div
+      className="content-wrapper"
+    >
+      <section
+        className="content"
+      >
+        <div
+          className="row"
+        >
+          <div
+            className="col-xs-12"
+          >
+            <div
+              className="box"
+            >
+              <div
+                className="box-header"
+              >
+                <section
+                  className="content-header"
+                >
+                  <h3
+                    className="box-title"
+                  >
+                    Daftar User
+                  </h3>
+                  <ol
+                    className="breadcrumb"
+                  >
+                    <button
+                      className="btn btn-warning"
+                      data-target="#modal-default"
+                      data-toggle="modal"
+                      type="button"
+                    >
+                      Create User
+                    </button>
+                  </ol>
+                </section>
+              </div>
+              <br />
+              <div
+                className="modal fade"
+                id="modal-default"
+              >
+                <div
+                  className="modal-dialog"
+                >
+                  <div
+                    className="modal-content"
+                  >
+                    <div
+                      className="modal-header"
+                    >
+                      <button
+                        aria-label="Close"
+                        className="close"
+                        data-dismiss="modal"
+                        type="button"
+                      >
+                        <span
+                          aria-hidden="true"
+                        >
+                          ×
+                        </span>
+                      </button>
+                      <h4
+                        className="modal-title"
+                      >
+                        Buat User Baru
+                      </h4>
+                    </div>
+                    <div>
+                      <div
+                        className="box-body"
+                      >
+                        <form
+                          className="contactform"
+                          name="contactform"
+                          onSubmit={[Function]}
+                        >
+                          <fieldset>
+                            <div
+                              className="form-group"
+                            >
+                              <label
+                                htmlFor="exampleInputName1"
+                              >
+                                Nama
+                              </label>
+                              <input
+                                className="form-control"
+                                onChange={[Function]}
+                                placeholder="Name"
+                                refs="name"
+                                required={true}
+                                size="30"
+                                type="text"
+                                value=""
+                              />
+                              <span
+                                className="help-block"
+                              />
+                            </div>
+                            <div
+                              className="form-group"
+                            >
+                              <label
+                                htmlFor="exampleInputHandphone1"
+                              >
+                                No. Handphone
+                              </label>
+                              <input
+                                className="form-control"
+                                onChange={[Function]}
+                                placeholder="Phone"
+                                refs="phone"
+                                size="12"
+                                type="telp"
+                                value=""
+                              />
+                              <span
+                                className="help-block"
+                              />
+                            </div>
+                            <div
+                              className="form-group"
+                            >
+                              <label
+                                htmlFor="exampleInputEmail1"
+                              >
+                                Email
+                              </label>
+                              <input
+                                className="form-control"
+                                onChange={[Function]}
+                                placeholder="Email"
+                                refs="email"
+                                size="30"
+                                type="email"
+                                value=""
+                              />
+                              <span
+                                className="help-block"
+                              />
+                            </div>
+                            <div
+                              className="form-group"
+                            >
+                              <label
+                                htmlFor="exampleInputPassword1"
+                              >
+                                Password
+                              </label>
+                              <input
+                                className="form-control"
+                                onChange={[Function]}
+                                placeholder="Password"
+                                refs="password"
+                                size="15"
+                                type="password"
+                                value=""
+                              />
+                              <span
+                                className="help-block"
+                              />
+                            </div>
+                            <div
+                              className="form-group"
+                            >
+                              <label
+                                htmlFor="inputState"
+                              >
+                                User Role
+                              </label>
+                              <select
+                                className="form-control"
+                                id="inputState"
+                                onChange={[Function]}
+                              >
+                                <option
+                                  defaultValue={true}
+                                >
+                                  Pilih
+                                </option>
+                                <option
+                                  value="1"
+                                >
+                                  Role 1
+                                </option>
+                                <option
+                                  value="2"
+                                >
+                                  Role 2
+                                </option>
+                                <option
+                                  value="3"
+                                >
+                                  Role 3
+                                </option>
+                              </select>
+                            </div>
+                          </fieldset>
+                          <div
+                            className="col-md-12"
+                          >
+                            <div
+                              className="modal-footer"
+                            >
+                              <button
+                                className="btn btn-default"
+                                data-dismiss="modal"
+                                type="button"
+                              >
+                                Batal
+                              </button>
+                              <button
+                                className="btn btn-primary"
+                                id="submit"
+                                type="submit"
+                              >
+                                Simpan
+                              </button>
+                            </div>
+                          </div>
+                        </form>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                className="box-body"
+              >
+                <table
+                  className="table table-bordered table-striped"
+                  id="example1"
+                >
+                  <thead>
+                    <tr>
+                      <th
+                        scope="col"
+                      >
+                        Nama
+                      </th>
+                      <th
+                        scope="col"
+                      >
+                        Email
+                      </th>
+                      <th
+                        scope="col"
+                      >
+                        No. Handphone
+                      </th>
+                      <th
+                        scope="col"
+                      >
+                        Role
+                      </th>
+                      <th
+                        scope="col"
+                      >
+                        Options
+                      </th>
+                    </tr>
+                  </thead>
+                  <tbody />
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </div>
+  <div>
+    <footer
+      className="main-footer"
+    >
+      <div
+        className="pull-right hidden-xs"
+      >
+        <b>
+          Version
+        </b>
+         2.4.0
+      </div>
+      <strong>
+        Copyright © 2014-2016 
+        <a
+          href="https://adminlte.io"
+        >
+          Almsaeed Studio
+        </a>
+        .
+      </strong>
+       All rights reserved.
+    </footer>
+  </div>
+</div>
+`;

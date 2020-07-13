@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders without crashing 1`] = `
+Object {
+  "render": [MockFunction] {
+    "calls": Array [
+      Array [
+        <UNDEFINED>
+          <App />
+        </UNDEFINED>,
+        null,
+      ],
+      Array [
+        <App />,
+        <div />,
+      ],
+    ],
+    "results": Array [
+      Object {
+        "type": "return",
+        "value": undefined,
+      },
+      Object {
+        "type": "return",
+        "value": undefined,
+      },
+    ],
+  },
+}
+`;

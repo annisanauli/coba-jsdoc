@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`create.user component Should capture email correctly onChange 1`] = `ReactWrapper {}`;
+
+exports[`create.user component Should capture name correctly onChange 1`] = `ReactWrapper {}`;
+
+exports[`create.user component Should capture password correctly onChange 1`] = `ReactWrapper {}`;
+
+exports[`create.user component Should capture phone correctly onChange 1`] = `ReactWrapper {}`;
+
+exports[`create.user component Should capture select role correctly onChange 1`] = `ReactWrapper {}`;
+
+exports[`create.user component calls handleSubmit prop function when form is submitted 1`] = `ShallowWrapper {}`;
+
+exports[`create.user component renders 1`] = `ShallowWrapper {}`;

@@ -1,0 +1,35 @@
+{
+  "name": "project-backend",
+  "version": "1.0.0",
+  "description": "This project was created with Node JS",
+  "main": "App.js",
+  "scripts": {
+    "dev": "nodemon src/App.js",
+    "test": "cross-env NODE_ENV=test jest --forceExit --detectOpenHandles",
+    "test:coverage": "jest --coverage --forceExit --detectOpenHandles",
+    "migrate": "npx sequelize-cli db:migrate",
+    "migrate:reset": "npx sequelize-cli db:migrate:undo:all && npm run migrate",
+    "pretest": "cross-env NODE_ENV=test npm run migrate:reset"
+  },
+  "keywords": [
+    "npm"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mysql2": "^2.1.0",
+    "sequelize": "^5.21.10"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.2",
+    "jest": "^26.1.0",
+    "supertest": "^4.0.2"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "coveragePathIgnorePatterns": [
+      "/node_modules/"
+    ]
+  }
+}
